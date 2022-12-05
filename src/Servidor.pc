@@ -20,6 +20,15 @@ typedef struct paramConexion{
     char contrasena[20];
 }paramConexion;
 
+typedef struct Universidad{
+    int Codigo;
+    char Grupo[10];
+    char Materia[50];
+    int Creditos;
+    int Trimestre;
+    char NombreProfesor[50];
+}Universidad;
+
 tpsvrinit(int argc, char *argv []){
     int iRetValue = 0;
     paramConexion svL_paramCon;
@@ -36,7 +45,18 @@ void imprimeLista(){
     strcpy(usuario, "SYS");
     strcpy(contrasena, "MyPasswd123");
     EXEC SQL CONNECT :usuario IDENTIFIED BY :contrasena;
-    EXEC SQL SELECT * FROM UNIVERSIDAD;
+    EXEC SQL BEGIN DECLARE SECTION;
+        int codigo;
+        char grupo[10];
+        char materia[50];
+        int creditos;
+        int trimestre;
+        char nombreProfesor[50];
+    EXEC SQL END DECLARE SECTION;
+    EXEC SQL AT ORACLE2
+        SELECT Codigo, Grupo, Materia, Creditos, Trimestre, NombreProfesor
+        INTO :codigo, :grupo, :materia, :creditos, :trimestre, :nombreProfesor
+        FROM Universidad;
     EXEC SQL COMMIT;
     //EXEC SQL DISCONNECT;
 }

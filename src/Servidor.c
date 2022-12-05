@@ -103,16 +103,16 @@ static struct sqlexd {
    unsigned int   sqcmod;
    unsigned int   sqfmod;
    unsigned int   sqlpfmem;
-            void  *sqhstv[4];
-   unsigned int   sqhstl[4];
-            int   sqhsts[4];
-            void  *sqindv[4];
-            int   sqinds[4];
-   unsigned int   sqharm[4];
-   unsigned int   *sqharc[4];
-   unsigned short  sqadto[4];
-   unsigned short  sqtdso[4];
-} sqlstm = {13,4};
+            void  *sqhstv[6];
+   unsigned int   sqhstl[6];
+            int   sqhsts[6];
+            void  *sqindv[6];
+            int   sqinds[6];
+   unsigned int   sqharm[6];
+   unsigned int   *sqharc[6];
+   unsigned short  sqadto[6];
+   unsigned short  sqtdso[6];
+} sqlstm = {13,6};
 
 /* SQLLIB Prototypes */
 extern void sqlcxt (void **, unsigned int *,
@@ -135,9 +135,10 @@ typedef struct { unsigned short len; unsigned char arr[1]; } varchar;
 /* cud (compilation unit data) array */
 static const short sqlcud0[] =
 {13,4130,178,0,0,
-5,0,0,0,0,0,27,38,0,0,4,4,0,1,0,1,97,0,0,1,97,0,0,1,10,0,0,1,10,0,0,
-36,0,0,2,27,0,4,39,0,0,0,0,0,1,0,
-51,0,0,3,0,0,29,40,0,0,0,0,0,1,0,
+5,0,0,0,0,0,27,47,0,0,4,4,0,1,0,1,97,0,0,1,97,0,0,1,10,0,0,1,10,0,0,
+36,0,0,2,114,0,4,56,0,0,6,0,0,2,7,79,82,65,67,76,69,50,2,3,0,0,2,97,0,0,2,97,0,
+0,2,3,0,0,2,3,0,0,2,97,0,0,
+82,0,0,3,0,0,29,60,0,0,0,0,0,1,0,
 };
 
 
@@ -267,6 +268,15 @@ typedef struct paramConexion{
     char contrasena[20];
 }paramConexion;
 
+typedef struct Universidad{
+    int Codigo;
+    char Grupo[10];
+    char Materia[50];
+    int Creditos;
+    int Trimestre;
+    char NombreProfesor[50];
+}Universidad;
+
 tpsvrinit(int argc, char *argv []){
     int iRetValue = 0;
     paramConexion svL_paramCon;
@@ -332,15 +342,29 @@ void imprimeLista(){
 }
 
 
-    /* EXEC SQL SELECT * FROM UNIVERSIDAD; */ 
+    /* EXEC SQL BEGIN DECLARE SECTION; */ 
+
+        int codigo;
+        char grupo[10];
+        char materia[50];
+        int creditos;
+        int trimestre;
+        char nombreProfesor[50];
+    /* EXEC SQL END DECLARE SECTION; */ 
+
+    /* EXEC SQL AT ORACLE2
+        SELECT Codigo, Grupo, Materia, Creditos, Trimestre, NombreProfesor
+        INTO :codigo, :grupo, :materia, :creditos, :trimestre, :nombreProfesor
+        FROM Universidad; */ 
 
 {
     struct sqlexd sqlstm;
     sqlstm.sqlvsn = 13;
-    sqlstm.arrsiz = 4;
+    sqlstm.arrsiz = 6;
     sqlstm.sqladtp = &sqladt;
     sqlstm.sqltdsp = &sqltds;
-    sqlstm.stmt = "select *  from UNIVERSIDAD ";
+    sqlstm.stmt = "select Codigo ,Grupo ,Materia ,Creditos ,Trimestre ,Nombr\
+eProfesor into :b0,:b1,:b2,:b3,:b4,:b5  from Universidad ";
     sqlstm.iters = (unsigned int  )1;
     sqlstm.offset = (unsigned int  )36;
     sqlstm.selerr = (unsigned short)1;
@@ -349,6 +373,63 @@ void imprimeLista(){
     sqlstm.sqlest = (unsigned char  *)&sqlca;
     sqlstm.sqlety = (unsigned short)4352;
     sqlstm.occurs = (unsigned int  )0;
+    sqlstm.sqhstv[0] = (         void  *)&codigo;
+    sqlstm.sqhstl[0] = (unsigned int  )sizeof(int);
+    sqlstm.sqhsts[0] = (         int  )0;
+    sqlstm.sqindv[0] = (         void  *)0;
+    sqlstm.sqinds[0] = (         int  )0;
+    sqlstm.sqharm[0] = (unsigned int  )0;
+    sqlstm.sqadto[0] = (unsigned short )0;
+    sqlstm.sqtdso[0] = (unsigned short )0;
+    sqlstm.sqhstv[1] = (         void  *)grupo;
+    sqlstm.sqhstl[1] = (unsigned int  )10;
+    sqlstm.sqhsts[1] = (         int  )0;
+    sqlstm.sqindv[1] = (         void  *)0;
+    sqlstm.sqinds[1] = (         int  )0;
+    sqlstm.sqharm[1] = (unsigned int  )0;
+    sqlstm.sqadto[1] = (unsigned short )0;
+    sqlstm.sqtdso[1] = (unsigned short )0;
+    sqlstm.sqhstv[2] = (         void  *)materia;
+    sqlstm.sqhstl[2] = (unsigned int  )50;
+    sqlstm.sqhsts[2] = (         int  )0;
+    sqlstm.sqindv[2] = (         void  *)0;
+    sqlstm.sqinds[2] = (         int  )0;
+    sqlstm.sqharm[2] = (unsigned int  )0;
+    sqlstm.sqadto[2] = (unsigned short )0;
+    sqlstm.sqtdso[2] = (unsigned short )0;
+    sqlstm.sqhstv[3] = (         void  *)&creditos;
+    sqlstm.sqhstl[3] = (unsigned int  )sizeof(int);
+    sqlstm.sqhsts[3] = (         int  )0;
+    sqlstm.sqindv[3] = (         void  *)0;
+    sqlstm.sqinds[3] = (         int  )0;
+    sqlstm.sqharm[3] = (unsigned int  )0;
+    sqlstm.sqadto[3] = (unsigned short )0;
+    sqlstm.sqtdso[3] = (unsigned short )0;
+    sqlstm.sqhstv[4] = (         void  *)&trimestre;
+    sqlstm.sqhstl[4] = (unsigned int  )sizeof(int);
+    sqlstm.sqhsts[4] = (         int  )0;
+    sqlstm.sqindv[4] = (         void  *)0;
+    sqlstm.sqinds[4] = (         int  )0;
+    sqlstm.sqharm[4] = (unsigned int  )0;
+    sqlstm.sqadto[4] = (unsigned short )0;
+    sqlstm.sqtdso[4] = (unsigned short )0;
+    sqlstm.sqhstv[5] = (         void  *)nombreProfesor;
+    sqlstm.sqhstl[5] = (unsigned int  )50;
+    sqlstm.sqhsts[5] = (         int  )0;
+    sqlstm.sqindv[5] = (         void  *)0;
+    sqlstm.sqinds[5] = (         int  )0;
+    sqlstm.sqharm[5] = (unsigned int  )0;
+    sqlstm.sqadto[5] = (unsigned short )0;
+    sqlstm.sqtdso[5] = (unsigned short )0;
+    sqlstm.sqphsv = sqlstm.sqhstv;
+    sqlstm.sqphsl = sqlstm.sqhstl;
+    sqlstm.sqphss = sqlstm.sqhsts;
+    sqlstm.sqpind = sqlstm.sqindv;
+    sqlstm.sqpins = sqlstm.sqinds;
+    sqlstm.sqparm = sqlstm.sqharm;
+    sqlstm.sqparc = sqlstm.sqharc;
+    sqlstm.sqpadto = sqlstm.sqadto;
+    sqlstm.sqptdso = sqlstm.sqtdso;
     sqlcxt((void **)0, &sqlctx, &sqlstm, &sqlfpn);
 }
 
@@ -358,11 +439,11 @@ void imprimeLista(){
 {
     struct sqlexd sqlstm;
     sqlstm.sqlvsn = 13;
-    sqlstm.arrsiz = 4;
+    sqlstm.arrsiz = 6;
     sqlstm.sqladtp = &sqladt;
     sqlstm.sqltdsp = &sqltds;
     sqlstm.iters = (unsigned int  )1;
-    sqlstm.offset = (unsigned int  )51;
+    sqlstm.offset = (unsigned int  )82;
     sqlstm.cud = sqlcud0;
     sqlstm.sqlest = (unsigned char  *)&sqlca;
     sqlstm.sqlety = (unsigned short)4352;
