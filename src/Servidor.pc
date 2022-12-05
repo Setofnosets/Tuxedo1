@@ -29,10 +29,14 @@ tpsvrinit(int argc, char *argv []){
 }
 
 void imprimeLista(){
-    strcpy(svL_paramCon.usuario, "SYS");
-    strcpy(svL_paramCon.contrasena, "MyPasswd123");
-    EXEC SQL CONNECT :svL_paramCon.usuario IDENTIFIED BY :svL_paramCon.contrasena;
+    EXEC SQL BEGIN DECLARE SECTION;
+        char usuario[50];
+        char contrasena[50];
+    EXEC SQL END DECLARE SECTION;
+    strcpy(usuario, "SYS");
+    strcpy(contrasena, "MyPasswd123");
+    EXEC SQL CONNECT :usuario IDENTIFIED BY :contrasena;
     EXEC SQL SELECT * FROM UNIVERSIDAD;
     EXEC SQL COMMIT;
-    EXEC SQL DISCONNECT;
+    //EXEC SQL DISCONNECT;
 }
