@@ -1,0 +1,7 @@
+OUTPUT  5   string  -   -
+CODIGO  10  long    -   - codigo
+GRUPO   15  string  -   - clave del grupo
+MATERIA 20  string  -   - Nombre de la materio
+CREDITOS    25  long    -   - Numero de creditos
+TRIMESTRE   30  long    -   - Trimestre
+NOMBREPROFESOR  35  string  -   - Nombre del profesor

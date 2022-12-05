@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <fml32.h>
+#include "../inc/biblioOper.fml.h"
+#include "atmi.h"
+#include <tx.h>
+#include <sqlca.h>
+#include <sqlda.h>
+#include <oraca.h>
+
+EXEC SQL INCLUDE SQLCA;
+
+EXEC SQL BEGIN DECLARE SECTION;
+EXEC SQL DECLARE ORACLE2 DATABASE;
+EXEC SQL END DECLARE SECTION;
+
+typedef struct paramConexion{
+    char usuario[20];
+    char contrasena[20];
+}paramConexion;
+
+tpsvrinit(int argc, char *argv []){
+    int iRetValue = 0;
+    paramConexion svL_paramCon;
+
+    userlog ("Iniciando servidor");
+    return(iRetValue);
+}
+
+void imprimeLista(){
+    strcpy(svL_paramCon.usuario, "SYS");
+    strcpy(svL_paramCon.contrasena, "MyPasswd123");
+    EXEC SQL CONNECT :svL_paramCon.usuario IDENTIFIED BY :svL_paramCon.contrasena;
+    EXEC SQL SELECT * FROM UNIVERSIDAD;
+    EXEC SQL COMMIT;
+    EXEC SQL DISCONNECT;
+}

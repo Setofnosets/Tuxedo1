@@ -1,0 +1,49 @@
+#	(c) 2003 BEA Systems, Inc. All Rights Reserved.
+#ident	"@(#) samples/atmi/simpapp/ubbsimple	$Revision: 1.7 $"
+
+#Skeleton UBBCONFIG file for the TUXEDO Simple Application.
+#Replace the <bracketed> items with the appropriate values.
+
+*RESOURCES
+
+
+#Example:
+IPCKEY		123456
+
+DOMAINID	Tuxedo1
+MASTER		simple
+MAXACCESSERS	10
+MAXSERVERS	5
+MAXSERVICES	10
+MODEL		SHM
+LDBAL		N
+SECURITY	NONE
+
+*MACHINES
+DEFAULT:
+		APPDIR="/home/oracle/Documents/Tuxedo1"
+		TUXCONFIG=TUXCONFIG="/home/oracle/workplace/tuxconfig"
+		TUXDIR="/home/oracle/OraHome_1/tuxedo22.1.0.0.0"
+#Example:
+#		APPDIR="/home/me/simpapp"
+#		TUXCONFIG="/home/me/simpapp/tuxconfig"
+#		TUXDIR="/usr/tuxedo"
+
+"fedora36.localdomain"	LMID=simple
+
+#Example:
+#beatux		LMID=simple
+
+*GROUPS
+GROUP1
+	LMID=simple	GRPNO=1	OPENINFO=NONE
+
+*SERVERS
+DEFAULT:
+		CLOPT="-A"
+
+Servidor	SRVGRP=GROUP1 SRVID=1
+
+*SERVICES
+imprimeLista
+insertarUniversidad
