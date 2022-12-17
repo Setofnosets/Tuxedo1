@@ -21,3 +21,8 @@ campos_fml: $(FML)/biblioOper.fml
 cliTuxedo: $(SRC)/Cliente.c
 	@echo "Generando clientes Tuxedo"
 	buildclient -o $(BIN)/Cliente -f $(SRC)/Cliente.c
+
+#Generacion del Servidor
+servTuxedo: $(SRC)/Servidor.c
+	@echo "Generando servidor Tuxedo"
+	buildserver -o $(BIN)/Servidor -f $(SRC)/Servidor.c -s imprimeLista

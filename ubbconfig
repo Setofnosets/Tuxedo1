@@ -21,15 +21,15 @@ SECURITY	NONE
 
 *MACHINES
 DEFAULT:
-		APPDIR="/home/oracle/Documents/Tuxedo1"
-		TUXCONFIG=TUXCONFIG="/home/oracle/workplace/tuxconfig"
-		TUXDIR="/home/oracle/OraHome_1/tuxedo22.1.0.0.0"
+		APPDIR/home/arturomunozcastillo/Documents/Tuxedo1"
+		TUXCONFIG=TUXCONFIG="/home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig"
+		TUXDIR="/home/arturomunozcastillo/OraHome_1/tuxedo22.1.0.0.0"
 #Example:
 #		APPDIR="/home/me/simpapp"
 #		TUXCONFIG="/home/me/simpapp/tuxconfig"
 #		TUXDIR="/usr/tuxedo"
 
-"fedora36.localdomain"	LMID=simple
+"fedora37.localdomain"	LMID=simple
 
 #Example:
 #beatux		LMID=simple
@@ -46,4 +46,3 @@ Servidor	SRVGRP=GROUP1 SRVID=1
 
 *SERVICES
 imprimeLista
-insertarUniversidad

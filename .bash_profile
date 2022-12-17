@@ -1,2 +1,2 @@
-export APPDIR=/home/oracle/Documents/Tuxedo1
-export LD_LIBRARY_PATH=$APPDIR:$TUXDIR/lib:/lib:/usr/lib:$LD_LIBRARY_PATH
+export APPDIR=/home/arturomunozcastillo/Documents/Tuxedo1
+export TUXCONFIG=/home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig

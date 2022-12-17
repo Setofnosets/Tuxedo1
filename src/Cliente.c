@@ -201,7 +201,7 @@ int insertarUniversidad(Universidad* Universidad, int cantidad){
         i++;
     }
     //Invocar al servidor
-    if (tpcall("INSERTAR", (char *)fbfr, 0, (char **)&recv, &flen, 0) == -1){
+    if (tpcall("imprimeLista", (char *)fbfr, 0, (char **)&recv, &flen, 0) == -1){
         printf("Error en la llamada al servicio INSERTAR, tperrno = %d\n", tperrno);
         tpfree((char *)fbfr);
         tpfree((char *)recv);
