@@ -1,8 +1,3 @@
-PROC	= $(ORACLE_HOME)/bin/PROC
-PROC_CFLAGS = code=ANSI_C
-PROCINCLUDES = include=include include=/usr/include sys_include/include include=../inc
-PROCFLAGS = $(PROC_CFLAGS) $(PROCINCLUDES)
-
 # Path: makefile
 BIN=./bin
 SRC=./src
@@ -25,4 +20,4 @@ cliTuxedo: $(SRC)/Cliente.c
 #Generacion del Servidor
 servTuxedo: $(SRC)/Servidor.c
 	@echo "Generando servidor Tuxedo"
-	buildserver -o $(BIN)/Servidor -f $(SRC)/Servidor.c -s imprimeLista
+	buildserver -o $(BIN)/Servidor -f $(SRC)/Servidor.c -s imprimeLista -f -lmysqlclient

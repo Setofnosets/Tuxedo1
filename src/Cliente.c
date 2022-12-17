@@ -6,11 +6,11 @@
 #include "atmi.h"
 
 typedef struct Universidad{
-    int Codigo;
+    long Codigo;
     char Grupo[10];
     char Materia[50];
-    int Creditos;
-    int Trimestre;
+    long Creditos;
+    long Trimestre;
     char NombreProfesor[50];
 }Universidad;
 
@@ -22,7 +22,16 @@ int imprimeLista();
 int main() {
     Universidad Universidad[numeroLineas("Universidad.csv")];
     leerArchivo("Universidad.csv", Universidad);
-    imprimeLista();
+    //imprimeLista();
+    insertarUniversidad(Universidad,1);
+    /*Universidad Uni;
+    Uni.Codigo = 1;
+    strcpy(Uni.Grupo, "aaaa");
+    strcpy(Uni.Materia, "bbbbb");
+    Uni.Creditos = 2;
+    Uni.Trimestre=5;
+    strcpy(Uni.NombreProfesor, "Juan");
+    insertarUniversidad(Uni, 1);*/
     return 0;
 }
 
@@ -71,7 +80,6 @@ int leerArchivo(char* nombreArchivo, Universidad* Universidad){
         }
     }
     fclose(archivo);
-    insertarUniversidad(Universidad, numeroLineas("Universidad.csv"));
     return 0;
 }
 
@@ -93,7 +101,7 @@ int numeroLineas(char* nombreArchivo){
     return numeroLineas;
 }
 
-int imprimeLista(){
+/*int imprimeLista(){
     FBFR32 *fbfr;
     FBFR32 *recv;
     FLDLEN32 flen;
@@ -133,14 +141,14 @@ int imprimeLista(){
     tpfree((char *)recv);
     tpterm();
     return 0;
-}
+}*/
 
 int insertarUniversidad(Universidad* Universidad, int cantidad){
-    FBFR32 *fbfr;
-    FBFR32 *recv;
-    FLDLEN32 flen;
+    FBFR32 *fbfr, *recv;
+    long flen;
     char msgbuf[1024];
     int i = 0;
+    cantidad = 1;
     printf("Contectando con el servidor...\n");
     if(tpinit((TPINIT *)NULL) == -1){
         printf("Error en la conexion con el servidor, tperrno = %d\n", tperrno);
@@ -148,73 +156,74 @@ int insertarUniversidad(Universidad* Universidad, int cantidad){
     }
 
     //Reservacion de memoria del buffer
-    if ((fbfr = (FBFR32 *) tpalloc("FML32", NULL, 1024)) == NULL){
+    if ((fbfr = (FBFR32 *) tpalloc("FML32", NULL, 2048)) == NULL){
         printf("Error Reservando espacio para Buffer fbfr\n");
         tpterm();
         return(1);
     }
-
-    if ((recv = (FBFR32 *) tpalloc("FML32", NULL, 1024)) == NULL){
+    if ((recv = (FBFR32 *) tpalloc("FML32", NULL, 2048)) == NULL){
         printf("Error Reservando espacio para Buffer recv\n");
         tpterm();
         return(1);
     }
-
+    //Finit32(fbfr, 2048);
+    //Finit32(recv, 2048);
     printf("Enviando datos al servidor...\n");
-    while (i < cantidad){
+    while (i < 1){
         if(Fadd32 (fbfr, CODIGO, (char *) &Universidad[i].Codigo, 0) == -1){
-            printf("Error agregando el campo CODIGO al buffer\n");
+            printf("Error agregando el campo CODIGO al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         if(Fadd32 (fbfr, GRUPO, (char *) &Universidad[i].Grupo, 0) == -1){
-            printf("Error agregando el campo GRUPO al buffer\n");
+            printf("Error agregando el campo GRUPO al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         if(Fadd32 (fbfr, MATERIA, (char *) &Universidad[i].Materia, 0) == -1){
-            printf("Error agregando el campo MATERIA al buffer\n");
+            printf("Error agregando el campo MATERIA al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         if(Fadd32 (fbfr, CREDITOS, (char *) &Universidad[i].Creditos, 0) == -1){
-            printf("Error agregando el campo CREDITOS al buffer\n");
+            printf("Error agregando el campo CREDITOS al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         if(Fadd32 (fbfr, TRIMESTRE, (char *) &Universidad[i].Trimestre, 0) == -1){
-            printf("Error agregando el campo TRIMESTRE al buffer\n");
+            printf("Error agregando el campo TRIMESTRE al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         if(Fadd32 (fbfr, NOMBREPROFESOR, (char *) &Universidad[i].NombreProfesor, 0) == -1){
-            printf("Error agregando el campo NOMBREPROFESOR al buffer\n");
+            printf("Error agregando el campo NOMBREPROFESOR al buffer: %d\n", Ferror32);
             tpfree((char *)fbfr);
             tpterm();
             return(1);
         }
         i++;
+        fflush(stdout);
     }
     //Invocar al servidor
-    if (tpcall("imprimeLista", (char *)fbfr, 0, (char **)&recv, &flen, 0) == -1){
+    printf("Invocando al servidor....\n");
+    fflush(stdout);
+    if (tpcall("imprimeLista", (char *)fbfr, 0, (char **)&recv, &flen, (long)0) == -1){
         printf("Error en la llamada al servicio INSERTAR, tperrno = %d\n", tperrno);
         tpfree((char *)fbfr);
-        tpfree((char *)recv);
         tpterm();
         return(1);
     }
 
-    flen = sizeof(msgbuf);
+   /* flen = sizeof(msgbuf);
     Fget32(recv, OUTPUT, 0, (char *)msgbuf, &flen);
-    printf("Respuesta del servidor: %s\n", msgbuf);
+    printf("Respuesta del servidor: %s\n", msgbuf);*/
 
     tpfree((char *)fbfr);
-    tpfree((char *)recv);
     tpterm();
     return 0;
 }

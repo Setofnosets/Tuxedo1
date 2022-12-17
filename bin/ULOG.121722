@@ -1,0 +1,246 @@
+060609.fedora37.localdomain!tmshutdown.30897.380649984.-2: 12-17-2022: client high water (0), total client (0)            
+060609.fedora37.localdomain!tmshutdown.30897.380649984.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+060609.fedora37.localdomain!tmshutdown.30897.380649984.-2: LIBTUX_CAT:334: ERROR: No BBL
+060609.fedora37.localdomain!tmshutdown.30897.380649984.-2: FATAL: internal error: CMDTUX_CAT:764: ERROR: can't attach to BB
+060841.fedora37.localdomain!tmboot.31199.3093291520.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+060841.fedora37.localdomain!tmboot.31199.3093291520.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+060843.fedora37.localdomain!BBL.31200.4196188672.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+060843.fedora37.localdomain!BBL.31200.4196188672.0: LIBTUX_CAT:262: INFO: Standard main starting
+060843.fedora37.localdomain!Servidor.31203.3704922624.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+060843.fedora37.localdomain!Servidor.31203.3704922624.0: LIBTUX_CAT:262: INFO: Standard main starting
+060843.fedora37.localdomain!Servidor.31203.3704922624.0: Iniciando servidor
+060903.fedora37.localdomain!Servidor.31203.3704922624.0: 116
+060903.fedora37.localdomain!Servidor.31203.3704922624.0: No se leyo el primer operador: 5
+060903.fedora37.localdomain!Servidor.31203.3704922624.0: Codigo: -606013368
+061008.fedora37.localdomain!Servidor.31203.3704922624.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+061011.fedora37.localdomain!BBL.31200.4196188672.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+061025.fedora37.localdomain!tmboot.31312.2924843520.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061025.fedora37.localdomain!tmboot.31312.2924843520.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+061027.fedora37.localdomain!BBL.31313.184705536.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+061027.fedora37.localdomain!BBL.31313.184705536.0: LIBTUX_CAT:262: INFO: Standard main starting
+061027.fedora37.localdomain!Servidor.31316.526266880.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061027.fedora37.localdomain!Servidor.31316.526266880.0: LIBTUX_CAT:262: INFO: Standard main starting
+061027.fedora37.localdomain!Servidor.31316.526266880.0: Iniciando servidor
+061032.fedora37.localdomain!Servidor.31316.526266880.0: 116
+061032.fedora37.localdomain!Servidor.31316.526266880.0: No se leyo el primer operador: 4
+061032.fedora37.localdomain!Servidor.31316.526266880.0: Codigo: -869054664
+061100.fedora37.localdomain!Servidor.31316.526266880.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+061103.fedora37.localdomain!BBL.31313.184705536.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+061115.fedora37.localdomain!tmboot.31395.2070041088.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061115.fedora37.localdomain!tmboot.31395.2070041088.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+061117.fedora37.localdomain!BBL.31396.862478848.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+061117.fedora37.localdomain!BBL.31396.862478848.0: LIBTUX_CAT:262: INFO: Standard main starting
+061117.fedora37.localdomain!Servidor.31399.62505472.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061117.fedora37.localdomain!Servidor.31399.62505472.0: LIBTUX_CAT:262: INFO: Standard main starting
+061117.fedora37.localdomain!Servidor.31399.62505472.0: Iniciando servidor
+061120.fedora37.localdomain!Servidor.31399.62505472.0: 116
+061120.fedora37.localdomain!Servidor.31399.62505472.0: No se leyo el primer operador: 4
+061120.fedora37.localdomain!Servidor.31399.62505472.0: Codigo: 1493976376
+061138.fedora37.localdomain!Servidor.31399.62505472.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+061141.fedora37.localdomain!BBL.31396.862478848.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+061212.fedora37.localdomain!tmboot.31557.1524793856.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061212.fedora37.localdomain!tmboot.31557.1524793856.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+061214.fedora37.localdomain!BBL.31558.506577408.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+061214.fedora37.localdomain!BBL.31558.506577408.0: LIBTUX_CAT:262: INFO: Standard main starting
+061214.fedora37.localdomain!Servidor.31561.886428160.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061214.fedora37.localdomain!Servidor.31561.886428160.0: LIBTUX_CAT:262: INFO: Standard main starting
+061214.fedora37.localdomain!Servidor.31561.886428160.0: Iniciando servidor
+061219.fedora37.localdomain!Servidor.31561.886428160.0: 116
+061219.fedora37.localdomain!Servidor.31561.886428160.0: No se leyo el primer operador: 4
+061219.fedora37.localdomain!Servidor.31561.886428160.0: Codigo: -1733701512
+061250.fedora37.localdomain!Servidor.31561.886428160.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+061253.fedora37.localdomain!BBL.31558.506577408.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+061308.fedora37.localdomain!tmboot.31969.3777024.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061308.fedora37.localdomain!tmboot.31969.3777024.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+061310.fedora37.localdomain!BBL.31977.4224741888.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+061310.fedora37.localdomain!BBL.31977.4224741888.0: LIBTUX_CAT:262: INFO: Standard main starting
+061310.fedora37.localdomain!Servidor.31981.2614780416.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061310.fedora37.localdomain!Servidor.31981.2614780416.0: LIBTUX_CAT:262: INFO: Standard main starting
+061310.fedora37.localdomain!Servidor.31981.2614780416.0: Iniciando servidor
+061437.fedora37.localdomain!Servidor.31981.2614780416.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+061440.fedora37.localdomain!BBL.31977.4224741888.0: LIBTUX_CAT:216: WARN: Process 31990 died; removing from BB
+061440.fedora37.localdomain!BBL.31977.4224741888.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+061518.fedora37.localdomain!tmboot.32194.1726910976.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061518.fedora37.localdomain!tmboot.32194.1726910976.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+061520.fedora37.localdomain!BBL.32195.429724160.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+061520.fedora37.localdomain!BBL.32195.429724160.0: LIBTUX_CAT:262: INFO: Standard main starting
+061520.fedora37.localdomain!Servidor.32200.3522859520.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+061520.fedora37.localdomain!Servidor.32200.3522859520.0: LIBTUX_CAT:262: INFO: Standard main starting
+061520.fedora37.localdomain!Servidor.32200.3522859520.0: Iniciando servidor
+061523.fedora37.localdomain!Servidor.32200.3522859520.0: 104
+061523.fedora37.localdomain!Servidor.32200.3522859520.0: No se leyo el segundo operador: 4
+062053.fedora37.localdomain!Servidor.32200.3522859520.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+062056.fedora37.localdomain!BBL.32195.429724160.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+062500.fedora37.localdomain!tmboot.33208.4052480512.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062500.fedora37.localdomain!tmboot.33208.4052480512.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+062502.fedora37.localdomain!BBL.33213.2218336768.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+062502.fedora37.localdomain!BBL.33213.2218336768.0: LIBTUX_CAT:262: INFO: Standard main starting
+062502.fedora37.localdomain!Servidor.33218.1817887232.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062502.fedora37.localdomain!Servidor.33218.1817887232.0: LIBTUX_CAT:262: INFO: Standard main starting
+062502.fedora37.localdomain!Servidor.33218.1817887232.0: Iniciando servidor
+062508.fedora37.localdomain!Servidor.33218.1817887232.0: 116
+062702.fedora37.localdomain!BBL.33213.2218336768.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+062702.fedora37.localdomain!BBL.33213.2218336768.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+062702.fedora37.localdomain!cleanupsrv.33375.3118490112.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062702.fedora37.localdomain!cleanupsrv.33375.3118490112.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 33224 - dropped message because server and client died, SERVICE=imprimeLista
+062702.fedora37.localdomain!cleanupsrv.33375.3118490112.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94533774699880,bytes=4712,type=-1073741824,flag=2048
+062702.fedora37.localdomain!cleanupsrv.33375.3118490112.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+062729.fedora37.localdomain!BBL.33213.2218336768.0: LIBTUX_CAT:216: WARN: Process 33218 died; removing from BB
+062729.fedora37.localdomain!BBL.33213.2218336768.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+062745.fedora37.localdomain!tmboot.33446.647893504.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062745.fedora37.localdomain!tmboot.33446.647893504.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+062747.fedora37.localdomain!BBL.33447.876106240.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+062747.fedora37.localdomain!BBL.33447.876106240.0: LIBTUX_CAT:262: INFO: Standard main starting
+062747.fedora37.localdomain!Servidor.33450.783888896.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062747.fedora37.localdomain!Servidor.33450.783888896.0: LIBTUX_CAT:262: INFO: Standard main starting
+062747.fedora37.localdomain!Servidor.33450.783888896.0: Iniciando servidor
+062750.fedora37.localdomain!Servidor.33450.783888896.0: 116
+062947.fedora37.localdomain!BBL.33447.876106240.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+062947.fedora37.localdomain!BBL.33447.876106240.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+062947.fedora37.localdomain!cleanupsrv.33614.1111126528.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+062947.fedora37.localdomain!cleanupsrv.33614.1111126528.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 33459 - dropped message because server and client died, SERVICE=imprimeLista
+062947.fedora37.localdomain!cleanupsrv.33614.1111126528.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94908165406056,bytes=4712,type=-1073741824,flag=2048
+062947.fedora37.localdomain!cleanupsrv.33614.1111126528.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+063040.fedora37.localdomain!BBL.33447.876106240.0: LIBTUX_CAT:216: WARN: Process 33450 died; removing from BB
+063040.fedora37.localdomain!BBL.33447.876106240.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+063409.fedora37.localdomain!tmboot.34241.1168290304.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063409.fedora37.localdomain!tmboot.34241.1168290304.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+063411.fedora37.localdomain!BBL.34242.2907509248.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+063411.fedora37.localdomain!BBL.34242.2907509248.0: LIBTUX_CAT:262: INFO: Standard main starting
+063411.fedora37.localdomain!Servidor.34245.2759168512.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063411.fedora37.localdomain!Servidor.34245.2759168512.0: LIBTUX_CAT:262: INFO: Standard main starting
+063411.fedora37.localdomain!Servidor.34245.2759168512.0: Iniciando servidor
+063415.fedora37.localdomain!Servidor.34245.2759168512.0: 116
+063611.fedora37.localdomain!BBL.34242.2907509248.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+063611.fedora37.localdomain!BBL.34242.2907509248.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+063611.fedora37.localdomain!cleanupsrv.34345.2361590272.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063611.fedora37.localdomain!cleanupsrv.34345.2361590272.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 34253 - dropped message because server and client died, SERVICE=imprimeLista
+063611.fedora37.localdomain!cleanupsrv.34345.2361590272.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94113590513000,bytes=4712,type=-1073741824,flag=2048
+063611.fedora37.localdomain!cleanupsrv.34345.2361590272.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+063733.fedora37.localdomain!BBL.34242.2907509248.0: LIBTUX_CAT:216: WARN: Process 34245 died; removing from BB
+063733.fedora37.localdomain!BBL.34242.2907509248.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+063749.fedora37.localdomain!tmboot.34526.606867968.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063749.fedora37.localdomain!tmboot.34526.606867968.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+063751.fedora37.localdomain!BBL.34527.1760616960.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+063751.fedora37.localdomain!BBL.34527.1760616960.0: LIBTUX_CAT:262: INFO: Standard main starting
+063751.fedora37.localdomain!Servidor.34535.1342050816.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063751.fedora37.localdomain!Servidor.34535.1342050816.0: LIBTUX_CAT:262: INFO: Standard main starting
+063751.fedora37.localdomain!Servidor.34535.1342050816.0: Iniciando servidor
+063754.fedora37.localdomain!Servidor.34535.1342050816.0: 116
+063908.fedora37.localdomain!tmshutdown.34626.168870400.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063908.fedora37.localdomain!tmshutdown.34626.168870400.-2: CMDTUX_CAT:4477: INFO: SRVID=1 SRVGRP=GROUP1 SIGTERM send failed (tperrno=7)
+063908.fedora37.localdomain!tmshutdown.34626.168870400.-2: WARN: internal error: CMDTUX_CAT:947: WARN: Can't shutdown server (GROUP1/1)
+063911.fedora37.localdomain!BBL.34527.1760616960.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+063911.fedora37.localdomain!BBL.34527.1760616960.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+063911.fedora37.localdomain!BBL.34527.1760616960.0: LIBTUX_CAT:1233: ERROR: Unable to shutdown, clients/servers still attached
+063911.fedora37.localdomain!cleanupsrv.34640.2231030272.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063911.fedora37.localdomain!cleanupsrv.34640.2231030272.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 34542 - dropped message because server and client died, SERVICE=imprimeLista
+063911.fedora37.localdomain!cleanupsrv.34640.2231030272.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94697675767144,bytes=4712,type=-1073741824,flag=2048
+063911.fedora37.localdomain!cleanupsrv.34640.2231030272.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+063918.fedora37.localdomain!BBL.34527.1760616960.0: LIBTUX_CAT:216: WARN: Process 34535 died; removing from BB
+063918.fedora37.localdomain!BBL.34527.1760616960.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+063934.fedora37.localdomain!tmboot.34704.1668145664.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063934.fedora37.localdomain!tmboot.34704.1668145664.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+063936.fedora37.localdomain!BBL.34707.211223040.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+063936.fedora37.localdomain!BBL.34707.211223040.0: LIBTUX_CAT:262: INFO: Standard main starting
+063936.fedora37.localdomain!Servidor.34710.4026155520.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+063936.fedora37.localdomain!Servidor.34710.4026155520.0: LIBTUX_CAT:262: INFO: Standard main starting
+063936.fedora37.localdomain!Servidor.34710.4026155520.0: Iniciando servidor
+063957.fedora37.localdomain!Servidor.34710.4026155520.0: 116
+063957.fedora37.localdomain!Servidor.34710.4026155520.0: uwu
+064136.fedora37.localdomain!BBL.34707.211223040.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+064136.fedora37.localdomain!BBL.34707.211223040.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+064136.fedora37.localdomain!cleanupsrv.35006.3724677632.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064136.fedora37.localdomain!cleanupsrv.35006.3724677632.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 34725 - dropped message because server and client died, SERVICE=imprimeLista
+064136.fedora37.localdomain!cleanupsrv.35006.3724677632.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94863309409640,bytes=4712,type=-1073741824,flag=2048
+064136.fedora37.localdomain!cleanupsrv.35006.3724677632.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+064139.fedora37.localdomain!BBL.34707.211223040.0: LIBTUX_CAT:216: WARN: Process 34710 died; removing from BB
+064139.fedora37.localdomain!BBL.34707.211223040.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+064409.fedora37.localdomain!tmboot.35210.1797566976.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064409.fedora37.localdomain!tmboot.35210.1797566976.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+064411.fedora37.localdomain!BBL.35216.1594884608.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+064411.fedora37.localdomain!BBL.35216.1594884608.0: LIBTUX_CAT:262: INFO: Standard main starting
+064411.fedora37.localdomain!Servidor.35219.2260865536.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064411.fedora37.localdomain!Servidor.35219.2260865536.0: LIBTUX_CAT:262: INFO: Standard main starting
+064411.fedora37.localdomain!Servidor.35219.2260865536.0: Iniciando servidor
+064418.fedora37.localdomain!Servidor.35219.2260865536.0: 1
+064611.fedora37.localdomain!BBL.35216.1594884608.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+064611.fedora37.localdomain!BBL.35216.1594884608.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+064611.fedora37.localdomain!cleanupsrv.35351.3887759872.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064611.fedora37.localdomain!cleanupsrv.35351.3887759872.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 35229 - dropped message because server and client died, SERVICE=imprimeLista
+064611.fedora37.localdomain!cleanupsrv.35351.3887759872.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94916037258600,bytes=4712,type=-1073741824,flag=2048
+064611.fedora37.localdomain!cleanupsrv.35351.3887759872.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+064614.fedora37.localdomain!BBL.35216.1594884608.0: LIBTUX_CAT:216: WARN: Process 35219 died; removing from BB
+064614.fedora37.localdomain!BBL.35216.1594884608.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+064851.fedora37.localdomain!tmboot.35584.4082508288.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064851.fedora37.localdomain!tmboot.35584.4082508288.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+064853.fedora37.localdomain!BBL.35592.541647360.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+064853.fedora37.localdomain!BBL.35592.541647360.0: LIBTUX_CAT:262: INFO: Standard main starting
+064853.fedora37.localdomain!Servidor.35597.3520819712.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064853.fedora37.localdomain!Servidor.35597.3520819712.0: LIBTUX_CAT:262: INFO: Standard main starting
+064853.fedora37.localdomain!Servidor.35597.3520819712.0: Iniciando servidor
+064857.fedora37.localdomain!Cliente.35610.1567859200.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+064857.fedora37.localdomain!Cliente.35610.1567859200.0: ERROR: Presend cannot synchronize FML buffer due to LIBFML_CAT:13: ERROR: Invalid argument to function
+064857.fedora37.localdomain!Cliente.35610.1567859200.0: LIBTUX_CAT:6031: ERROR: Unable to pre-process buffer before tranmission.  Error code(12/4185)
+065143.fedora37.localdomain!Servidor.35597.3520819712.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+065146.fedora37.localdomain!BBL.35592.541647360.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+065218.fedora37.localdomain!tmshutdown.36018.367370752.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065218.fedora37.localdomain!tmshutdown.36018.367370752.-2: LIBTUX_CAT:334: ERROR: No BBL
+065218.fedora37.localdomain!tmshutdown.36018.367370752.-2: FATAL: internal error: CMDTUX_CAT:764: ERROR: can't attach to BB
+065223.fedora37.localdomain!tmboot.36023.431268352.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065223.fedora37.localdomain!tmboot.36023.431268352.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+065225.fedora37.localdomain!BBL.36026.3490386432.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+065225.fedora37.localdomain!BBL.36026.3490386432.0: LIBTUX_CAT:262: INFO: Standard main starting
+065225.fedora37.localdomain!Servidor.36029.1446289920.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065225.fedora37.localdomain!Servidor.36029.1446289920.0: LIBTUX_CAT:262: INFO: Standard main starting
+065225.fedora37.localdomain!Servidor.36029.1446289920.0: Iniciando servidor
+065542.fedora37.localdomain!Servidor.36029.1446289920.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+065545.fedora37.localdomain!BBL.36026.3490386432.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+065610.fedora37.localdomain!tmboot.36322.2866602496.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065610.fedora37.localdomain!tmboot.36322.2866602496.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+065612.fedora37.localdomain!BBL.36323.1904390656.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+065612.fedora37.localdomain!BBL.36323.1904390656.0: LIBTUX_CAT:262: INFO: Standard main starting
+065612.fedora37.localdomain!Servidor.36326.3160158720.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065612.fedora37.localdomain!Servidor.36326.3160158720.0: LIBTUX_CAT:262: INFO: Standard main starting
+065612.fedora37.localdomain!Servidor.36326.3160158720.0: Iniciando servidor
+065615.fedora37.localdomain!Servidor.36326.3160158720.0: 1
+065615.fedora37.localdomain!Servidor.36326.3160158720.0: 132132
+065615.fedora37.localdomain!Servidor.36326.3160158720.0: leido
+065615.fedora37.localdomain!Servidor.36326.3160158720.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez')
+065615.fedora37.localdomain!Servidor.36326.3160158720.0: Error conexion: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+065812.fedora37.localdomain!BBL.36323.1904390656.0: LIBTUX_CAT:541: WARN: Server GROUP1/1 terminated
+065812.fedora37.localdomain!BBL.36323.1904390656.0: LIBTUX_CAT:551: WARN: Cleaning up server GROUP1/1
+065812.fedora37.localdomain!cleanupsrv.36611.917492224.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+065812.fedora37.localdomain!cleanupsrv.36611.917492224.-2: server GROUP1/1: CMDTUX_CAT:1074: WARN: Client process 36331 - dropped message because server and client died, SERVICE=imprimeLista
+065812.fedora37.localdomain!cleanupsrv.36611.917492224.-2: ERROR: msgrcv err(LIBTUX_CAT:669: ERROR: Message operation failed because of the invalid message queue identifier): errno=22,qid=-1,buf=94715536199016,bytes=4712,type=-1073741824,flag=2048
+065812.fedora37.localdomain!cleanupsrv.36611.917492224.-2: server GROUP1/1: CMDTUX_CAT:551: INFO: server removed
+070012.fedora37.localdomain!BBL.36323.1904390656.0: LIBTUX_CAT:216: WARN: Process 36326 died; removing from BB
+070450.fedora37.localdomain!BBL.36323.1904390656.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+070504.fedora37.localdomain!tmboot.38752.979251712.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+070504.fedora37.localdomain!tmboot.38752.979251712.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+070506.fedora37.localdomain!BBL.38755.281321984.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+070506.fedora37.localdomain!BBL.38755.281321984.0: LIBTUX_CAT:262: INFO: Standard main starting
+070506.fedora37.localdomain!Servidor.38765.198590976.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+070506.fedora37.localdomain!Servidor.38765.198590976.0: LIBTUX_CAT:262: INFO: Standard main starting
+070506.fedora37.localdomain!Servidor.38765.198590976.0: Iniciando servidor
+070510.fedora37.localdomain!Servidor.38765.198590976.0: 1
+070510.fedora37.localdomain!Servidor.38765.198590976.0: 132132
+070510.fedora37.localdomain!Servidor.38765.198590976.0: Lectura exitosa
+070510.fedora37.localdomain!Servidor.38765.198590976.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez')
+070510.fedora37.localdomain!Servidor.38765.198590976.0: Insercion Exitosa

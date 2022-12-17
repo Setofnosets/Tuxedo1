@@ -1,0 +1,13 @@
+031821.fedora37.localdomain!tmloadcf.16978.1934529024.-2: 12-17-2022: client high water (0), total client (0)            
+031821.fedora37.localdomain!tmloadcf.16978.1934529024.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+031821.fedora37.localdomain!tmloadcf.16978.1934529024.-2: CMDTUX_CAT:879: INFO: A new file system has been created. (size = 1276 512-byte blocks)
+031821.fedora37.localdomain!tmloadcf.16978.1934529024.-2: CMDTUX_CAT:871: INFO: TUXCONFIG file /home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig has been created
+032721.fedora37.localdomain!tmboot.17797.99738112.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+032721.fedora37.localdomain!tmboot.17797.99738112.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+032723.fedora37.localdomain!BBL.17798.1361043968.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+032723.fedora37.localdomain!BBL.17798.1361043968.0: LIBTUX_CAT:262: INFO: Standard main starting
+033124.fedora37.localdomain!BBL.17798.1361043968.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+034015.fedora37.localdomain!tmshutdown.18578.3972289024.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+034015.fedora37.localdomain!tmshutdown.18578.3972289024.-2: LIBTUX_CAT:334: ERROR: No BBL
+034015.fedora37.localdomain!tmshutdown.18578.3972289024.-2: FATAL: internal error: CMDTUX_CAT:764: ERROR: can't attach to BB

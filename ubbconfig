@@ -21,8 +21,8 @@ SECURITY	NONE
 
 *MACHINES
 DEFAULT:
-		APPDIR/home/arturomunozcastillo/Documents/Tuxedo1"
-		TUXCONFIG=TUXCONFIG="/home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig"
+		APPDIR="/home/arturomunozcastillo/Documents/Tuxedo1/bin"
+		TUXCONFIG="/home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig"
 		TUXDIR="/home/arturomunozcastillo/OraHome_1/tuxedo22.1.0.0.0"
 #Example:
 #		APPDIR="/home/me/simpapp"
@@ -45,4 +45,4 @@ DEFAULT:
 Servidor	SRVGRP=GROUP1 SRVID=1
 
 *SERVICES
-imprimeLista
+imprimeLista 
