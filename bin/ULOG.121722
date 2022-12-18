@@ -244,3 +244,56 @@
 070510.fedora37.localdomain!Servidor.38765.198590976.0: Lectura exitosa
 070510.fedora37.localdomain!Servidor.38765.198590976.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez')
 070510.fedora37.localdomain!Servidor.38765.198590976.0: Insercion Exitosa
+205726.fedora37.localdomain!tmboot.5790.264417792.-2: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+205726.fedora37.localdomain!tmboot.5790.264417792.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+205728.fedora37.localdomain!BBL.5791.276124160.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+205728.fedora37.localdomain!BBL.5791.276124160.0: LIBTUX_CAT:262: INFO: Standard main starting
+205728.fedora37.localdomain!Servidor.5794.727020032.0: 12-17-2022: Tuxedo Version 22.1.0.0.0, 64-bit
+205728.fedora37.localdomain!Servidor.5794.727020032.0: LIBTUX_CAT:262: INFO: Standard main starting
+205728.fedora37.localdomain!Servidor.5794.727020032.0: Iniciando servidor
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 132132
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604046
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604046, 'CG01C', 'Introduccion a las Redes de Computadoras', 8, 7, 'Adan Geovanni')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604047
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604047, 'CG01C', 'Sistemas Distribuidos', 11, 7, 'Jose Netz')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604048
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604048, 'CG01C', 'Desarrollo de Software a gran escala', 10, 7, 'Pedro Pablo')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604049
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604049, 'CG01C', 'Interfaces de Usuario', 8, 7, 'Alicia Montserrat')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604034
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604034, 'CE01C', 'Estructuras de datos no lineales', 12, 5, 'Abel Garcia')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604038
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604038, 'CE01C', 'Proyecto de Ingenieria de Software I', 10, 5, 'Pedro Pablo')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604041
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604041, 'CE01C', 'Probabilidad y Estadistica', 10, 5, 'Oswaldo Gonzalez')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 1
+205733.fedora37.localdomain!Servidor.5794.727020032.0: 4604042
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Lectura exitosa
+205733.fedora37.localdomain!Servidor.5794.727020032.0: INSERT INTO Uni Values(4604042, 'CE01C', 'Microcontroladores', 8, 5, 'Luis Angel')
+205733.fedora37.localdomain!Servidor.5794.727020032.0: Insercion Exitosa

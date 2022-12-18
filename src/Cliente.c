@@ -15,15 +15,21 @@ typedef struct Universidad{
 }Universidad;
 
 int leerArchivo(char* nombreArchivo, Universidad* Universidad);
-int insertarUniversidad(Universidad* Universidad, int cantidad);
+int insertarUniversidad(Universidad Universidad);
 int numeroLineas(char* nombreArchivo);
 int imprimeLista();
 
 int main() {
-    Universidad Universidad[numeroLineas("Universidad.csv")];
+    int numLineas = numeroLineas("Universidad.csv");
+    Universidad Universidad[numLineas];
     leerArchivo("Universidad.csv", Universidad);
     //imprimeLista();
-    insertarUniversidad(Universidad,1);
+    int i = 0;
+    printf("%d", numLineas);
+    while(i < numLineas){
+        insertarUniversidad(Universidad[i]);
+        i++;
+    }
     /*Universidad Uni;
     Uni.Codigo = 1;
     strcpy(Uni.Grupo, "aaaa");
@@ -143,12 +149,11 @@ int numeroLineas(char* nombreArchivo){
     return 0;
 }*/
 
-int insertarUniversidad(Universidad* Universidad, int cantidad){
+int insertarUniversidad(Universidad Universidad){
     FBFR32 *fbfr, *recv;
     long flen;
     char msgbuf[1024];
     int i = 0;
-    cantidad = 1;
     printf("Contectando con el servidor...\n");
     if(tpinit((TPINIT *)NULL) == -1){
         printf("Error en la conexion con el servidor, tperrno = %d\n", tperrno);
@@ -166,48 +171,42 @@ int insertarUniversidad(Universidad* Universidad, int cantidad){
         tpterm();
         return(1);
     }
-    //Finit32(fbfr, 2048);
-    //Finit32(recv, 2048);
     printf("Enviando datos al servidor...\n");
-    while (i < 1){
-        if(Fadd32 (fbfr, CODIGO, (char *) &Universidad[i].Codigo, 0) == -1){
-            printf("Error agregando el campo CODIGO al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        if(Fadd32 (fbfr, GRUPO, (char *) &Universidad[i].Grupo, 0) == -1){
-            printf("Error agregando el campo GRUPO al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        if(Fadd32 (fbfr, MATERIA, (char *) &Universidad[i].Materia, 0) == -1){
-            printf("Error agregando el campo MATERIA al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        if(Fadd32 (fbfr, CREDITOS, (char *) &Universidad[i].Creditos, 0) == -1){
-            printf("Error agregando el campo CREDITOS al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        if(Fadd32 (fbfr, TRIMESTRE, (char *) &Universidad[i].Trimestre, 0) == -1){
-            printf("Error agregando el campo TRIMESTRE al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        if(Fadd32 (fbfr, NOMBREPROFESOR, (char *) &Universidad[i].NombreProfesor, 0) == -1){
-            printf("Error agregando el campo NOMBREPROFESOR al buffer: %d\n", Ferror32);
-            tpfree((char *)fbfr);
-            tpterm();
-            return(1);
-        }
-        i++;
-        fflush(stdout);
+    if(Fadd32 (fbfr, CODIGO, (char *) &Universidad.Codigo, 0) == -1){
+        printf("Error agregando el campo CODIGO al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
+    }
+    if(Fadd32 (fbfr, GRUPO, (char *) &Universidad.Grupo, 0) == -1){
+        printf("Error agregando el campo GRUPO al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
+    }
+    if(Fadd32 (fbfr, MATERIA, (char *) &Universidad.Materia, 0) == -1){
+        printf("Error agregando el campo MATERIA al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
+    }
+    if(Fadd32 (fbfr, CREDITOS, (char *) &Universidad.Creditos, 0) == -1){
+        printf("Error agregando el campo CREDITOS al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
+    }
+    if(Fadd32 (fbfr, TRIMESTRE, (char *) &Universidad.Trimestre, 0) == -1){
+        printf("Error agregando el campo TRIMESTRE al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
+    }
+    if(Fadd32 (fbfr, NOMBREPROFESOR, (char *) &Universidad.NombreProfesor, 0) == -1){
+        printf("Error agregando el campo NOMBREPROFESOR al buffer: %d\n", Ferror32);
+        tpfree((char *)fbfr);
+        tpterm();
+        return(1);
     }
     //Invocar al servidor
     printf("Invocando al servidor....\n");
