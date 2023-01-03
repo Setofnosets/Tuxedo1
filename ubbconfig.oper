@@ -46,6 +46,6 @@ DEFAULT:
 Servidor	SRVGRP=GROUP1 SRVID=10 MIN=1 MAX=2
 
 *SERVICES
-insertaLista PRIO=60  
-imprimeLista PRIO=50
-actualizaLista PRIO=40
+insertaLista 
+imprimeLista
+seleccionar

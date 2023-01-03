@@ -3097,3 +3097,104 @@
 201414.fedora37.localdomain!Servidor.36425.1417101824.0: 7
 201414.fedora37.localdomain!Servidor.36425.1417101824.0: Alicia Montserrat
 201414.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 132132
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604046
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604046, 'CG01C', 'Introduccion a las Redes de Computadoras', 8, 7, 'Adan Geovanni') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604047
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604047, 'CG01C', 'Sistemas Distribuidos', 11, 7, 'Jose Netz') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604048
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604048, 'CG01C', 'Desarrollo de Software a gran escala', 10, 7, 'Pedro Pablo') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604049
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604049, 'CG01C', 'Interfaces de Usuario', 8, 7, 'Alicia Montserrat') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604034
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604034, 'CE01C', 'Estructuras de datos no lineales', 12, 5, 'Abel Garcia') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604038
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604038, 'CE01C', 'Proyecto de Ingenieria de Software I', 10, 5, 'Pedro Pablo') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604041
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604041, 'CE01C', 'Probabilidad y Estadistica', 10, 5, 'Oswaldo Gonzalez') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604042
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Lectura exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: INSERT INTO Uni Values(4604042, 'CE01C', 'Microcontroladores', 8, 5, 'Luis Angel') ON DUPLICATE KEY UPDATE Codigo=Codigo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Insercion Exitosa
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 132132
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: A45DV
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Calculo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 12
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Javier Perez
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604034
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CE01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Estructuras de datos no lineales
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 12
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 5
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Abel Garcia
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604038
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CE01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Proyecto de Ingenieria de Software I
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 10
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 5
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Pedro Pablo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604041
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CE01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Probabilidad y Estadistica
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 10
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 5
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Oswaldo Gonzalez
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604042
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CE01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Microcontroladores
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 8
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 5
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Luis Angel
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604046
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CG01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Introduccion a las Redes de Computadoras
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 8
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 7
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Adan Geovanni
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604047
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CG01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Sistemas Distribuidos
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 11
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 7
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Jose Netz
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604048
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CG01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Desarrollo de Software a gran escala
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 10
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 7
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Pedro Pablo
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 4604049
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: CG01C
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Interfaces de Usuario
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 8
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: 7
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Alicia Montserrat
+201722.fedora37.localdomain!Servidor.36425.1417101824.0: Enviando datos al cliente...
+201726.fedora37.localdomain!Servidor.36425.1417101824.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+201729.fedora37.localdomain!BBL.36422.3008119296.0: CMDTUX_CAT:26: INFO: The BBL is exiting system

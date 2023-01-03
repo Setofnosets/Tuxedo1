@@ -25,4 +25,4 @@ cliTuxedo: $(SRC)/Cliente.c
 #Generacion del Servidor
 servTuxedo: $(SRC)/Servidor.c
 	@echo "Generando servidor Tuxedo"
-	buildserver -o $(BIN)/Servidor -f $(SRC)/Servidor.c -s imprimeLista,insertaLista -f -lmysqlclient
+	buildserver -o $(BIN)/Servidor -f $(SRC)/Servidor.c -s imprimeLista,insertaLista,seleccionar -f -lmysqlclient
