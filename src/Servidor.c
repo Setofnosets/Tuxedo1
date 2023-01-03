@@ -21,9 +21,8 @@ int tpsvrinit(int argc, char *argv []){
     return(0);
 }
 
-void imprimeLista(TPSVCINFO *rqst){
+void insertaLista(TPSVCINFO *rqst){
     FBFR32* fbfr = (FBFR32*)rqst->data;
-    userlog("%d", Fielded32(fbfr));
     char buffer[1024];
     Universidad Uni;
     strcpy(buffer, "INSERT INTO Uni VALUES('");
@@ -58,7 +57,7 @@ void imprimeLista(TPSVCINFO *rqst){
     }
     userlog("Lectura exitosa");
     fflush(stdout);
-    snprintf(buffer, sizeof(buffer), "INSERT INTO Uni Values(%d, '%s', '%s', %d, %d, '%s')",Uni.Codigo,Uni.Grupo,Uni.Materia,Uni.Creditos,Uni.Trimestre,Uni.NombreProfesor);
+    snprintf(buffer, sizeof(buffer), "INSERT INTO Uni Values(%d, '%s', '%s', %d, %d, '%s') ON DUPLICATE KEY UPDATE Codigo=Codigo",Uni.Codigo,Uni.Grupo,Uni.Materia,Uni.Creditos,Uni.Trimestre,Uni.NombreProfesor);
     userlog("%s",buffer);
     MYSQL *conn;
     if ((conn = mysql_init(NULL)) == NULL) {
@@ -78,4 +77,85 @@ void imprimeLista(TPSVCINFO *rqst){
     mysql_close(conn);
     userlog("Insercion Exitosa");
     tpreturn(TPSUCCESS, 0, rqst->data, 0L, 0);
+}
+
+void imprimeLista(TPSVCINFO *rqst){
+    FBFR32* fbfr = (FBFR32*)rqst->data;
+    char buffer[1024];
+    strcpy(buffer, "SELECT * FROM Uni");
+    MYSQL *conn;
+    MYSQL_RES *res;
+    MYSQL_ROW row;
+    if((conn = mysql_init(NULL)) == NULL){
+        userlog("Error Inicializacion: %s", mysql_error(conn));
+        exit(1);
+    }
+    if(mysql_real_connect(conn, "127.0.0.1", "root", "A5r!87T0U1Ro", "Universidad", 3306, NULL, 0) == NULL){
+        userlog("Error conexion: %s", mysql_error(conn));
+        mysql_close(conn);
+        exit(1);
+    }
+    if(mysql_query(conn, buffer) != 0){
+        userlog("Error: %s", mysql_error(conn));
+        mysql_close(conn);
+        exit(1);
+    }
+    if((res = mysql_store_result(conn)) == NULL){
+        userlog("Error: %s", mysql_error(conn));
+        mysql_close(conn);
+        exit(1);
+    }
+    Universidad Resultado;
+    userlog("Enviando datos al cliente...");
+    while((row = mysql_fetch_row(res)) != NULL){
+        for(int i = 0; i < mysql_num_fields(res); i++){
+            userlog("%s", row[i]);
+            switch(i){
+                case 0:
+                    Resultado.Codigo = atoi(row[i]);
+                    break;
+                case 1:
+                    strcpy(Resultado.Grupo, row[i]);
+                    break;
+                case 2:
+                    strcpy(Resultado.Materia, row[i]);
+                    break;
+                case 3:
+                    Resultado.Creditos = atoi(row[i]);
+                    break;
+                case 4:
+                    Resultado.Trimestre = atoi(row[i]);
+                    break;
+                case 5:
+                    strcpy(Resultado.NombreProfesor, row[i]);
+                    break;
+            }
+        }
+        if(Fadd32(fbfr, CODIGO, (char *)&Resultado.Codigo, 0) < 0){
+            userlog("No se agrego el primer operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+        if(Fadd32(fbfr, GRUPO, (char *)&Resultado.Grupo, 0) < 0){
+            userlog("No se agrego el segundo operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+        if(Fadd32(fbfr, MATERIA, (char *)&Resultado.Materia, 0) < 0){
+            userlog("No se agrego el tercer operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+        if(Fadd32(fbfr, CREDITOS, (char *)&Resultado.Creditos, 0) < 0){
+            userlog("No se agrego el cuarto operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+        if(Fadd32(fbfr, TRIMESTRE, (char *)&Resultado.Trimestre, 0) < 0){
+            userlog("No se agrego el quinto operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+        if(Fadd32(fbfr, NOMBREPROFESOR, (char *)&Resultado.NombreProfesor, 0) < 0){
+            userlog("No se agrego el sexto operador: %d", Ferror32);
+            tpreturn (TPFAIL, 0, (char *)fbfr, 0L, 0);
+        }
+    }
+    mysql_close(conn);
+    tpreturn(TPSUCCESS, 0, (char *)fbfr, 0L, 0);
 }

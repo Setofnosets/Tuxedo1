@@ -1,4 +1,4 @@
-OUTPUT  5   string  -   -
+OUTPUT  5   long  -   -
 CODIGO  10  long    -   - codigo
 GRUPO   15  string  -   - clave del grupo
 MATERIA 20  string  -   - Nombre de la materio

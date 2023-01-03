@@ -25,11 +25,11 @@ int main() {
     leerArchivo("Universidad.csv", Universidad);
     //imprimeLista();
     int i = 0;
-    printf("%d", numLineas);
     while(i < numLineas){
         insertarUniversidad(Universidad[i]);
         i++;
     }
+    imprimeLista();
     /*Universidad Uni;
     Uni.Codigo = 1;
     strcpy(Uni.Grupo, "aaaa");
@@ -107,31 +107,32 @@ int numeroLineas(char* nombreArchivo){
     return numeroLineas;
 }
 
-/*int imprimeLista(){
+int imprimeLista(){
     FBFR32 *fbfr;
     FBFR32 *recv;
     FLDLEN32 flen;
+    long longitud;
     char msgbuf[1024];
-    printf("Contectando con el servidor...\n");
+    printf("Conectando con el servidor...\n");
     if(tpinit((TPINIT *)NULL) == -1){
         printf("Error en la conexion con el servidor, tperrno = %d\n", tperrno);
         return 1;
     }
 
     //Reservacion de memoria del buffer
-    if ((fbfr = (FBFR32 *) tpalloc("FML32", NULL, 1024)) == NULL){
+    if ((fbfr = (FBFR32 *) tpalloc("FML32", NULL, 2048)) == NULL){
         printf("Error Reservando espacio para Buffer fbfr\n");
         tpterm();
         return(1);
     }
 
-    if ((recv = (FBFR32 *) tpalloc("FML32", NULL, 1024)) == NULL){
+    if ((recv = (FBFR32 *) tpalloc("FML32", NULL, 2048)) == NULL){
         printf("Error Reservando espacio para Buffer recv\n");
         tpterm();
         return(1);
     }
 
-    if (tpcall("LISTA", (char *)fbfr, 0, (char **)&recv, &flen, 0) == -1){
+    if (tpcall("imprimeLista", (char *)fbfr, 0, (char **)&recv, &longitud, 0) == -1){
         printf("Error en la llamada al servicio LISTA, tperrno = %d\n", tperrno);
         tpfree((char *)fbfr);
         tpfree((char *)recv);
@@ -139,22 +140,36 @@ int numeroLineas(char* nombreArchivo){
         return(1);
     }
 
-    flen = sizeof(msgbuf);
-    Fget32(recv, OUTPUT, 0, (char *)msgbuf, &flen);
-    printf("Respuesta del servidor: %s\n", msgbuf);
-
+    flen = sizeof(Universidad);
+    /*Fget32(recv, OUTPUT, 0, (char *)msgbuf, &flen);
+    printf("Respuesta del servidor: %s\n", msgbuf);*/
+    //Respuesta del servidor:
+    Universidad Uni;
+    int i = 0;
+    while(Fget32(recv, CODIGO, i, (char *)&Uni.Codigo, 0) != -1){
+        Fget32(recv, GRUPO, i, (char *)&Uni.Grupo, 0);
+        Fget32(recv, MATERIA, i, (char *)&Uni.Materia, 0);
+        Fget32(recv, CREDITOS, i, (char *)&Uni.Creditos, 0);
+        Fget32(recv, TRIMESTRE, i, (char *)&Uni.Trimestre, 0);
+        Fget32(recv, NOMBREPROFESOR, i, (char *)&Uni.NombreProfesor, 0);
+        printf("Codigo: %d, Grupo: %s, Materia: %s, Creditos: %d, Trimestre: %d, NombreProfesor: %s\n", Uni.Codigo, Uni.Grupo, Uni.Materia, Uni.Creditos, Uni.Trimestre, Uni.NombreProfesor);
+        i++;
+    }
+    if(Ferror32 != FNOTPRES){
+        printf("Error en la lectura del buffer, Ferror32 = %d\n", Ferror32);
+    }
     tpfree((char *)fbfr);
     tpfree((char *)recv);
     tpterm();
     return 0;
-}*/
+}
 
 int insertarUniversidad(Universidad Universidad){
     FBFR32 *fbfr, *recv;
     long flen;
     char msgbuf[1024];
     int i = 0;
-    printf("Contectando con el servidor...\n");
+    printf("Conectando con el servidor...\n");
     if(tpinit((TPINIT *)NULL) == -1){
         printf("Error en la conexion con el servidor, tperrno = %d\n", tperrno);
         return 1;
@@ -211,7 +226,7 @@ int insertarUniversidad(Universidad Universidad){
     //Invocar al servidor
     printf("Invocando al servidor....\n");
     fflush(stdout);
-    if (tpcall("imprimeLista", (char *)fbfr, 0, (char **)&recv, &flen, (long)0) == -1){
+    if (tpcall("insertaLista", (char *)fbfr, 0, (char **)&recv, &flen, (long)0) == -1){
         printf("Error en la llamada al servicio INSERTAR, tperrno = %d\n", tperrno);
         tpfree((char *)fbfr);
         tpterm();
