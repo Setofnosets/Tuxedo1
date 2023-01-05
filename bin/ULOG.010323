@@ -1476,3 +1476,192 @@
 030300.fedora37.localdomain!Servidor.7038.1470095872.0: Insercion Exitosa
 030313.fedora37.localdomain!Servidor.7038.1470095872.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
 030316.fedora37.localdomain!BBL.7035.3987657216.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
+214824.fedora37.localdomain!tmloadcf.18442.1380282880.-2: 01-03-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+214824.fedora37.localdomain!tmloadcf.18442.1380282880.-2: CMDTUX_CAT:872: INFO: TUXCONFIG file /home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig has been updated
+214832.fedora37.localdomain!tmboot.18481.1153114624.-2: 01-03-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+214832.fedora37.localdomain!tmboot.18481.1153114624.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+214834.fedora37.localdomain!BBL.18484.1317257728.0: 01-03-2023: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+214834.fedora37.localdomain!BBL.18484.1317257728.0: LIBTUX_CAT:262: INFO: Standard main starting
+214834.fedora37.localdomain!Servidor.18491.4042953216.0: 01-03-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+214834.fedora37.localdomain!Servidor.18491.4042953216.0: LIBTUX_CAT:262: INFO: Standard main starting
+214834.fedora37.localdomain!Servidor.18491.4042953216.0: Iniciando servidor
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Enviando datos al cliente...
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 132132
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: AAAAA
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Calculo
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Javier Perez
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604034
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Estructuras de datos no lineales
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Abel Garcia
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604038
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Proyecto de Ingenieria de Software I
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604041
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Probabilidad y Estadistica
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Oswaldo Gonzalez
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604042
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Microcontroladores
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Luis Angel
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604046
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Introduccion a las Redes de Computadoras
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Adan Geovanni
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604047
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Sistemas Distribuidos
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 11
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Jose Netz
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604048
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Desarrollo de Software a gran escala
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 4604049
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Interfaces de Usuario
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214840.fedora37.localdomain!Servidor.18491.4042953216.0: Alicia Montserrat
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Enviando datos al cliente...
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 132132
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: AAAAA
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Calculo
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Javier Perez
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604034
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Estructuras de datos no lineales
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Abel Garcia
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604038
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Proyecto de Ingenieria de Software I
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604041
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Probabilidad y Estadistica
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Oswaldo Gonzalez
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604042
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Microcontroladores
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Luis Angel
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604046
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Introduccion a las Redes de Computadoras
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Adan Geovanni
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604047
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Sistemas Distribuidos
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 11
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Jose Netz
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604048
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Desarrollo de Software a gran escala
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 4604049
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Interfaces de Usuario
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214846.fedora37.localdomain!Servidor.18491.4042953216.0: Alicia Montserrat
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: Lectura exitosa
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: Enviando datos al cliente...
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: 132132
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: AAAAA
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: Calculo
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: 4
+214850.fedora37.localdomain!Servidor.18491.4042953216.0: Javier Perez
+214854.fedora37.localdomain!Servidor.18491.4042953216.0: 132132
+214854.fedora37.localdomain!Servidor.18491.4042953216.0: Lectura exitosa
+214854.fedora37.localdomain!Servidor.18491.4042953216.0: INSERT INTO Uni Values(132132, 'KLK', 'Calculo', 12, 4, 'Javier Perez') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='KLK', Materia='Calculo', Creditos=12, Trimestre=4, NombreProfesor='Javier Perez'
+214854.fedora37.localdomain!Servidor.18491.4042953216.0: Insercion Exitosa
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Enviando datos al cliente...
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 132132
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: KLK
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Calculo
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Javier Perez
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604034
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Estructuras de datos no lineales
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 12
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Abel Garcia
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604038
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Proyecto de Ingenieria de Software I
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604041
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Probabilidad y Estadistica
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Oswaldo Gonzalez
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604042
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CE01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Microcontroladores
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 5
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Luis Angel
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604046
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Introduccion a las Redes de Computadoras
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Adan Geovanni
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604047
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Sistemas Distribuidos
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 11
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Jose Netz
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604048
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Desarrollo de Software a gran escala
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 10
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Pedro Pablo
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 4604049
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: CG01C
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Interfaces de Usuario
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 8
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: 7
+214901.fedora37.localdomain!Servidor.18491.4042953216.0: Alicia Montserrat
+214955.fedora37.localdomain!Servidor.18491.4042953216.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+214958.fedora37.localdomain!BBL.18484.1317257728.0: CMDTUX_CAT:26: INFO: The BBL is exiting system

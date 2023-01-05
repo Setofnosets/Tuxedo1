@@ -23,16 +23,34 @@ int imprimeLista();
 int main() {
     int numLineas = numeroLineas("Universidad.csv");
     Universidad Universidad[numLineas];
-    leerArchivo("Universidad.csv", Universidad);
-    //imprimeLista();
-    int i = 0;
-    while(i < numLineas){
-        insertarUniversidad(Universidad[i]);
-        i++;
+    while (1){
+        printf("\tMenu principal\nSelecciona una opcion:\n1. - Leer archivo\n2. - Actualizar\n3. - Visualizar\n4. - Salir\n");
+        int opcion;
+        scanf("%d", &opcion);
+        switch (opcion) {
+            case 1:
+                leerArchivo("Universidad.csv", Universidad);
+                int i = 0;
+                while(i < numLineas){
+                    insertarUniversidad(Universidad[i]);
+                    i++;
+                }
+                printf("Archivo leido correctamente\n");
+                break;
+            case 2:
+                actualizar();
+                break;
+            case 3:
+                imprimeLista();
+                break;
+            case 4:
+                return 0;
+                break;
+            default:
+                printf("Opcion no valida\n");
+                break;
+        }
     }
-    imprimeLista();
-    actualizar();
-    return 0;
 }
 
 

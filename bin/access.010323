@@ -208,3 +208,11 @@
 030245.fedora37.localdomain!Cliente.7043.4037882368.0: total client (1), logoff: NATIVE cltname (Cliente) success
 030250.fedora37.localdomain!Cliente.7043.4037882368.0: total client (1), logon: NATIVE cltname (Cliente) success
 030300.fedora37.localdomain!Cliente.7043.4037882368.0: total client (1), logoff: NATIVE cltname (Cliente) success
+214840.fedora37.localdomain!?proc.18500.2468655616.0: total client (1), logon: NATIVE cltname () success
+214840.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logoff: NATIVE cltname () success
+214846.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logon: NATIVE cltname (Cliente) success
+214846.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logoff: NATIVE cltname (Cliente) success
+214850.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logon: NATIVE cltname (Cliente) success
+214854.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logoff: NATIVE cltname (Cliente) success
+214901.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logon: NATIVE cltname (Cliente) success
+214901.fedora37.localdomain!Cliente.18500.2468655616.0: total client (1), logoff: NATIVE cltname (Cliente) success
