@@ -86,6 +86,7 @@ void imprimeLista(TPSVCINFO *rqst){
     MYSQL *conn;
     MYSQL_RES *res;
     MYSQL_ROW row;
+    fbfr = (FBFR32 *)tprealloc((char *)fbfr, 1000000);
     if((conn = mysql_init(NULL)) == NULL){
         userlog("Error Inicializacion: %s", mysql_error(conn));
         exit(1);

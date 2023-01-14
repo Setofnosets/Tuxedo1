@@ -1,0 +1,283 @@
+151038.fedora37.localdomain!tmloadcf.10715.4012827136.-2: 01-14-2023: client high water (0), total client (0)            
+151038.fedora37.localdomain!tmloadcf.10715.4012827136.-2: 01-14-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+151038.fedora37.localdomain!tmloadcf.10715.4012827136.-2: CMDTUX_CAT:872: INFO: TUXCONFIG file /home/arturomunozcastillo/Documents/Tuxedo1/tuxconfig has been updated
+151507.fedora37.localdomain!tmboot.11086.1192215040.-2: 01-14-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+151507.fedora37.localdomain!tmboot.11086.1192215040.-2: WARN: CMDTUX_CAT:8423: WARN: Insecure option NONE is set for SECURITY keyword.
+
+151509.fedora37.localdomain!BBL.11087.2016039424.0: 01-14-2023: Tuxedo Version 22.1.0.0.0, 64-bit, Patch Level (none)
+151509.fedora37.localdomain!BBL.11087.2016039424.0: LIBTUX_CAT:262: INFO: Standard main starting
+151509.fedora37.localdomain!Servidor.11091.2056622592.0: 01-14-2023: Tuxedo Version 22.1.0.0.0, 64-bit
+151509.fedora37.localdomain!Servidor.11091.2056622592.0: LIBTUX_CAT:262: INFO: Standard main starting
+151509.fedora37.localdomain!Servidor.11091.2056622592.0: Iniciando servidor
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 4, 'Javier Perez') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='A45DV', Materia='Calculo', Creditos=12, Trimestre=4, NombreProfesor='Javier Perez'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604046
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604046, 'CG01C', 'Introduccion a las Redes de Computadoras', 8, 7, 'Adan Geovanni') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CG01C', Materia='Introduccion a las Redes de Computadoras', Creditos=8, Trimestre=7, NombreProfesor='Adan Geovanni'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604047
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604047, 'CG01C', 'Sistemas Distribuidos', 11, 7, 'Jose Netz') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CG01C', Materia='Sistemas Distribuidos', Creditos=11, Trimestre=7, NombreProfesor='Jose Netz'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604048
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604048, 'CG01C', 'Desarrollo de Software a gran escala', 10, 7, 'Pedro Pablo') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CG01C', Materia='Desarrollo de Software a gran escala', Creditos=10, Trimestre=7, NombreProfesor='Pedro Pablo'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604049
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604049, 'CG01C', 'Interfaces de Usuario', 8, 7, 'Alicia Montserrat') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CG01C', Materia='Interfaces de Usuario', Creditos=8, Trimestre=7, NombreProfesor='Alicia Montserrat'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604034
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604034, 'CE01C', 'Estructuras de datos no lineales', 12, 5, 'Abel Garcia') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CE01C', Materia='Estructuras de datos no lineales', Creditos=12, Trimestre=5, NombreProfesor='Abel Garcia'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604038
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604038, 'CE01C', 'Proyecto de Ingenieria de Software I', 10, 5, 'Pedro Pablo') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CE01C', Materia='Proyecto de Ingenieria de Software I', Creditos=10, Trimestre=5, NombreProfesor='Pedro Pablo'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604041
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604041, 'CE01C', 'Probabilidad y Estadistica', 10, 5, 'Oswaldo Gonzalez') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CE01C', Materia='Probabilidad y Estadistica', Creditos=10, Trimestre=5, NombreProfesor='Oswaldo Gonzalez'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: 4604042
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(4604042, 'CE01C', 'Microcontroladores', 8, 5, 'Luis Angel') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='CE01C', Materia='Microcontroladores', Creditos=8, Trimestre=5, NombreProfesor='Luis Angel'
+152619.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: A45DV
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Calculo
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Javier Perez
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604034
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Estructuras de datos no lineales
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Abel Garcia
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604038
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Proyecto de Ingenieria de Software I
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604041
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Probabilidad y Estadistica
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Oswaldo Gonzalez
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604042
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Microcontroladores
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Luis Angel
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604046
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Introduccion a las Redes de Computadoras
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Adan Geovanni
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604047
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Sistemas Distribuidos
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 11
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Jose Netz
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604048
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Desarrollo de Software a gran escala
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 4604049
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Interfaces de Usuario
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+152940.fedora37.localdomain!Servidor.11091.2056622592.0: Alicia Montserrat
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: A45DV
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Calculo
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Javier Perez
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604034
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Estructuras de datos no lineales
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Abel Garcia
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604038
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Proyecto de Ingenieria de Software I
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604041
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Probabilidad y Estadistica
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Oswaldo Gonzalez
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604042
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Microcontroladores
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Luis Angel
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604046
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Introduccion a las Redes de Computadoras
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Adan Geovanni
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604047
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Sistemas Distribuidos
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 11
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Jose Netz
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604048
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Desarrollo de Software a gran escala
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 4604049
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Interfaces de Usuario
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153004.fedora37.localdomain!Servidor.11091.2056622592.0: Alicia Montserrat
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: A45DV
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: Calculo
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: 4
+153011.fedora37.localdomain!Servidor.11091.2056622592.0: Javier Perez
+153019.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+153019.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+153019.fedora37.localdomain!Servidor.11091.2056622592.0: INSERT INTO Uni Values(132132, 'A45DV', 'Calculo', 12, 8, 'Javier Perez') ON DUPLICATE KEY UPDATE Codigo=Codigo, Grupo='A45DV', Materia='Calculo', Creditos=12, Trimestre=8, NombreProfesor='Javier Perez'
+153019.fedora37.localdomain!Servidor.11091.2056622592.0: Insercion Exitosa
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: A45DV
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Calculo
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Javier Perez
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604034
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Estructuras de datos no lineales
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Abel Garcia
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604038
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Proyecto de Ingenieria de Software I
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604041
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Probabilidad y Estadistica
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Oswaldo Gonzalez
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604042
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Microcontroladores
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Luis Angel
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604046
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Introduccion a las Redes de Computadoras
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Adan Geovanni
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604047
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Sistemas Distribuidos
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 11
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Jose Netz
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604048
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Desarrollo de Software a gran escala
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 4604049
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Interfaces de Usuario
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153024.fedora37.localdomain!Servidor.11091.2056622592.0: Alicia Montserrat
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 132132
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: A45DV
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Calculo
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Javier Perez
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604034
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Estructuras de datos no lineales
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 12
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Abel Garcia
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604038
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Proyecto de Ingenieria de Software I
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604041
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Probabilidad y Estadistica
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Oswaldo Gonzalez
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604042
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CE01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Microcontroladores
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 5
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Luis Angel
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604046
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Introduccion a las Redes de Computadoras
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Adan Geovanni
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604047
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Sistemas Distribuidos
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 11
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Jose Netz
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604048
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Desarrollo de Software a gran escala
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 10
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Pedro Pablo
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 4604049
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: CG01C
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Interfaces de Usuario
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 8
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: 7
+153156.fedora37.localdomain!Servidor.11091.2056622592.0: Alicia Montserrat
+153157.fedora37.localdomain!Servidor.11091.2056622592.0: Lectura exitosa
+153157.fedora37.localdomain!Servidor.11091.2056622592.0: Enviando datos al cliente...
+154829.fedora37.localdomain!Servidor.11091.2056622592.0: LIBTUX_CAT:522: INFO: Default tpsvrdone() function used
+154832.fedora37.localdomain!BBL.11087.2016039424.0: CMDTUX_CAT:26: INFO: The BBL is exiting system
